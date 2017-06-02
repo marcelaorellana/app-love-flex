@@ -3,5 +3,96 @@ body {
   font-size: 16px;
   line-height: 1.71429;
   background-color: #fff;
-  /* Enlaza la tipografia Open Sans */
+  font-family: 'Open Sans', sans-serif;
 }
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.link{
+  font-weight: 700;
+  padding: 21px;
+  display: inline-block;
+}
+.btn-home{
+  background: #2ecc71;
+  color: #fff;
+  padding: 11px 20px;
+  border-radius: 4px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 14px;
+}
+.flex-container{
+	display: flex;
+}
+.menu{
+	background-color: white;
+	 position: fixed;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+}
+.menu.flex-container{
+	justify-content: flex-start;
+}
+.logo-container{
+	margin-left: auto;
+	margin-right: 20px;
+}
+.flex-container .logo{
+	width: 70px;
+	height: 70px;
+}
+
+
+#home{
+	height: 600px;
+	margin-top: 70px;
+	background-image: url(../assets/images/bg-home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    color: whitesmoke;
+}
+
+.text-home{
+	font-size: 2.4em;
+}
+
+#services{
+	background-color: #f17c72;
+	text-align: center;
+	color: #fff;
+	padding: 70px;
+}
+#services.flex-container{
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.box-services{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+footer{
+  text-align: center;
+  height: 70px;
+  background-color: #373b47;
+  color: white;
+  padding-top: 7px;
+}
+
+/*****************ejercicio evaluado********/
