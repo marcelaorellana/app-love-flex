@@ -1,4 +1,6 @@
-(function main(){
+//Intento de modal
+
+/*(function main(){
 	var boxes = Array.from(document.getElementsByClassName("proImg"));
 	console.log(boxes);
 	var modal = document.getElementById("modalId");
@@ -31,3 +33,4 @@
 		});		
 	});
 })();
+*/
